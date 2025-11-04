@@ -1,0 +1,355 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Sanap | Professional Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">SS</a>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+                <li><a href="#education" data-i18n="nav.education">Education</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                <!-- Theme and Language Toggle -->
+                <div class="toggles">
+                    <button id="theme-toggle" class="toggle-btn" title="Toggle Light/Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content fade-in">
+                <div class="home-text">
+                    <h1 data-i18n="home.title">Hi, I'm <span>Sachin Sanap</span></h1>
+                    <h2 data-i18n="home.subtitle">Python Developer | Web & Data Science Enthusiast | BCS Graduate</h2>
+<p data-i18n="home.description">
+Exploring data-driven insights using Python, SQL, and analytical libraries like Pandas and NumPy. Passionate about turning raw data into meaningful stories through visualization and analysis. Open to collaborations, research projects, and data analyst internships!
+</p>
+                    <h3 data-i18n="home.work">Ready to work together?</h3>
+                    <a href="#contact" class="btn" data-i18n="home.contact_btn">Get In Touch</a>
+                    <a href="Data Analyst  Resume.pdf" class="btn" download data-i18n="home.cv_btn">Download Resume</a>
+
+                </div>
+                <div class="home-image">
+                    <img src="images/Sachin Sanap.jpg" alt="Sachin Sanap" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left">
+                    <img src="images/about.jpg" alt="About Sachin Sanap">
+                </div>
+                <div class="about-text slide-in-right">
+                    <h3 data-i18n="about.who">Who I Am</h3>
+<p data-i18n="about.who_text">
+I'm a detail-oriented data analyst skilled in Python, SQL, and data visualization tools. I enjoy finding insights hidden in data and turning them into clear, actionable information. Having completed my BCS degree, I focus on exploring datasets, building dashboards, and applying analytical techniques to support better decision-making. <br><br>I enjoy solving real-world problems, learning new analytical methods, and improving my skills through every project I work on.
+</p>
+                    <h3 data-i18n="about.skills">My Skills</h3>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h4 data-i18n="about.frontend">Frontend</h4>
+                            <ul>
+                                <li>HTML5 & CSS3</li>
+                                <!-- <li>JavaScript (ES6+)</li> -->
+                            </ul>
+                        </div>
+                    
+                        <div class="skill-category">
+                            <h4 data-i18n="about.backend">Backend</h4>
+                            <ul>
+                                <!-- <li>PHP</li> -->
+                                <li>Python</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- <div class="skill-category">
+                            <h4 data-i18n="about.other_tech">Other Technologies</h4>
+                            <ul>
+                                <li>Java</li>
+                                <li>Linux (Basics & Command Line)</li>
+                            </ul>
+                        </div> -->
+                        <div class="skill-category">
+                            <h4 data-i18n="about.Currently-learning">Currently Learning</h4>
+                            <ul>
+                                <li>Data Science (Pandas, NumPy, Matplotlib, Seaborn)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <h3 data-i18n="about.goals">Career Goals</h3>
+<p data-i18n="about.goals_text">
+I aim to become a skilled Data Analyst capable of uncovering insights and supporting data-driven decisions. I enjoy working with Python, SQL, and visualization tools to interpret data and present clear findings. My goal is to grow as an analyst and contribute to projects that create practical, real-world impact.
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                 <div class="project-card pop-up">
+    <div class="project-image">
+        <img src="images/project1.png" alt="Airline Reviews Analysis">
+    </div>
+    <div class="project-info">
+        <h3 data-i18n="projects.project1.title">Airline Reviews Analysis</h3>
+        <p data-i18n="projects.project1.description">
+            A data analysis project exploring airline passenger reviews to identify trends in satisfaction, service quality, and travel experience. Includes data cleaning, visualization, and insights using Python libraries.
+        </p>
+        <div class="project-tech">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>Jupyter Notebook</span>
+        </div>
+        <div class="project-links">
+            <a href="https://nbviewer.org/github/sachinsanap171-coder/Airline-Reviews-Analysis./blob/main/Airline_Project.ipynb" class="btn-small" data-i18n="projects.demo">View Analysis</a>
+            <a href="https://github.com/sachinsanap171-coder/Airline-Reviews-Analysis." class="btn-small" data-i18n="projects.code">Code</a>
+        </div>
+    </div>                
+</div>
+
+                <div class="project-card pop-up">
+                    <div class="project-image">
+                        <img src="images/project2.png" alt="Room Finder Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="projects.project1.title">Room Finder Platform</h3>
+                        <p data-i18n="projects.project1.description">A web application where users can find and book rental rooms, as well as upload their own listings for others to rent.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small" data-i18n="projects.demo">Live Demo</a>
+                            <a href="https://github.com/sachin-sanap-1/Room-finder.git" class="btn-small" data-i18n="projects.code">Code</a>
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="project-card pop-up">
+                    <div class="project-image">
+                        <img src="images/project3.png" alt="Personal Portfolio Website">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="projects.project2.title">Personal Portfolio Website</h3>
+                        <p data-i18n="projects.project2.description">A professional online portfolio showcasing my web development skills and projects. This website highlights my expertise in creating responsive, user-friendly websites using modern technologies.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://sachinsanap171-coder.github.io/Portfolio-Website/" class="btn-small" data-i18n="projects.demo">Live Demo</a>
+                            <a href="https://github.com/sachinsanap171-coder/Portfolio-Website" class="btn-small" data-i18n="projects.code">Code</a>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Education Section -->
+<section id="education" class="education-section">
+    <div class="container">
+        <h2 class="section-title" data-i18n="education.title">Education</h2>
+        <div class="education-timeline">
+
+            <div class="timeline-item fade-in">
+                <div class="timeline-date">2022 - 2025</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="education.edu3.degree">Bachelor of Computer Science (BCS)</h3>
+                    <p data-i18n="education.edu3.university">Swami Ramanand Teerth Marathwada University, Nanded</p>
+                    <ul>
+                        <li data-i18n="education.edu3.completed">Completed: 2025</li>
+                        <li data-i18n="education.edu3.percentage">CGPA: 7.99</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item fade-in">
+                <div class="timeline-date">2021 - 2022</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="education.edu2.degree">Higher Secondary Certificate (HSC)</h3>
+                    <p data-i18n="education.edu2.board">Amravati Board</p>
+                    <ul>
+                        <li data-i18n="education.edu2.completed">Completed: 2022</li>
+                        <li data-i18n="education.edu2.percentage">Percentage: 92%</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item fade-in">
+                <div class="timeline-date">2019 - 2020</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="education.edu1.degree">Secondary School Certificate (SSC)</h3>
+                    <p data-i18n="education.edu1.board">Amravati Board</p>
+                    <ul>
+                        <li data-i18n="education.edu1.completed">Completed: 2020</li>
+                        <li data-i18n="education.edu1.percentage">Percentage: 78.60%</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="certifications.title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card slide-up">
+                    <div class="certification-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3 data-i18n="certifications.cert1.title">Masterclass: How OTT Platforms Handle Millions of Concurrent Viewers Using HLD</h3>
+                    </div>
+                    <p class="issuer" data-i18n="certifications.issued_by">Issued by: Scaler</p>
+                    <p class="date" data-i18n="certifications.cert1.date">Completed: March 2025</p>
+                    <p class="skill" data-i18n="certifications.cert1.skills">Skills: High-Level Design, Scalability</p>
+                </div>
+
+    <div class="certification-card slide-up">
+        <div class="certification-header">
+            <i class="fas fa-certificate"></i>
+            <h3 data-i18n="certifications.cert1.title">Introduction to Data Science</h3>
+        </div>
+        <p class="issuer" data-i18n="certifications.issued_by">Issued by: Simplilearn SkillUp</p>
+        <p class="date" data-i18n="certifications.cert1.date">Completed: August 2025</p>
+        <p class="skill" data-i18n="certifications.cert1.skills">Skills: Data Science Basics, Data Analysis, Python</p>
+    </div>
+
+    <div class="certification-card slide-up">
+        <div class="certification-header">
+            <i class="fas fa-certificate"></i>
+            <h3 data-i18n="certifications.cert2.title">The Ultimate Job Ready Data Science Course</h3>
+        </div>
+        <p class="issuer" data-i18n="certifications.issued_by">Issued by: CodeWithHarry</p>
+        <p class="date" data-i18n="certifications.cert2.date">Completed: September 2025</p>
+        <p class="skill" data-i18n="certifications.cert2.skills">Skills: Data Science, Machine Learning, Python</p>
+    </div>
+
+    <div class="certification-card slide-up">
+        <div class="certification-header">
+            <i class="fas fa-certificate"></i>
+            <h3 data-i18n="certifications.cert3.title">Python Developer</h3>
+        </div>
+        <p class="issuer" data-i18n="certifications.issued_by">Issued by: Sololearn</p>
+        <p class="date" data-i18n="certifications.cert3.date">Completed: July 2025</p>
+        <p class="skill" data-i18n="certifications.cert3.skills">Skills: Python Programming, Functions, Data Structures</p>
+    </div>
+
+    <div class="certification-card slide-up">
+        <div class="certification-header">
+            <i class="fas fa-certificate"></i>
+            <h3 data-i18n="certifications.cert4.title">Introduction to SQL</h3>
+        </div>
+        <p class="issuer" data-i18n="certifications.issued_by">Issued by: Sololearn</p>
+        <p class="date" data-i18n="certifications.cert4.date">Completed: August 2025</p>
+        <p class="skill" data-i18n="certifications.cert4.skills">Skills: SQL Queries, Joins, Database Management</p>
+    </div>
+
+</div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info slide-in-left">
+                    <h3 data-i18n="contact.info_title">Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> sachinsanap171@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 7972049772</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Hingoli, Maharashtra, 431542</p>
+                    <p><i class="fab fa-instagram"></i> sachin_s.anap</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/sachinsanap171-coder"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sachin-sanap171?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/7972049772" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/sachin_s.anap?igsh=MW9oNmFubmUxeXNxZw=="><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:sachinsanap171@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form slide-in-right">
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="ae7a578e-f19e-4cfa-9d89-7aa2696384f7">
+                    
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required data-i18n-placeholder="contact.form.name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required data-i18n-placeholder="contact.form.email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required data-i18n-placeholder="contact.form.subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required data-i18n-placeholder="contact.form.message"></textarea>
+                        </div>
+                        <button type="submit" class="btn" id="submitButton" data-i18n="contact.form.submit">Send Message</button>
+                        <div id="form-message"></div>
+                    </form>
+                    <div id="form-message"></div>              
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="year"></span> <span data-i18n="footer.copyright">Sachin Sanap. All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/trans.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
