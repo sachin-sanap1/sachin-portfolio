@@ -11,6 +11,7 @@
     --transition: all 0.3s ease;
     --bg-color: #ffffff;
     --border-color: #ccc;
+    --nav-height: 80px;
   }
   
   body.dark-mode {
@@ -36,7 +37,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--bg-color);}
+    background-color: var(--bg-color);
+    padding-top: var(--nav-height);
+}
 
 .container {
     width: 90%;
@@ -47,6 +50,7 @@ body {
 
 section {
     padding: 80px 0;
+    scroll-margin-top: var(--nav-height);
 }
 
 .section-title {
@@ -171,11 +175,12 @@ section {
 
 /* Home Section */
 .home-section {
-    height: 100vh;
+    min-height: calc(100vh - var(--nav-height));
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
 }
+
 
 .home-content {
     display: flex;
@@ -538,6 +543,15 @@ section {
     transform: translateY(-5px);
 }
 
+.kaggle-icon {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url("/images/Kaggle.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
 
 .contact-form {
     flex: 1;
@@ -634,6 +648,8 @@ section {
     }
 
     .nav-links {
+        :root { --nav-height: 64px; }
+        .navbar .container { padding: 12px 0; }
         position: fixed;
         top: 80px;
         left: -100%;
@@ -722,4 +738,13 @@ section {
     border: 1px solid var(--border-color);
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
 }
